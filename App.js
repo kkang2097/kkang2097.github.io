@@ -2,7 +2,7 @@
 
 const e = React.createElement;
 
-class App extends React.Component() {
+class App extends React.Component {
   return(
     <div>HEALKJSKL</div>
   );
