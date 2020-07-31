@@ -1,16 +1,19 @@
-'use strict';
-
-const e = React.createElement;
-
 class App extends React.Component {
-  return(
-    <div>HEALKJSKL</div>
-  );
+    constructor(props){
+        super(props);
+        this.state = {
+            name: 'J',
+            apppVersion: '1'
+        }
+    }
+
+    render(){
+        return(
+            <>
+              ASDLJFALJALKADSJ
+            </>
+        )
+    }
+
+
 }
-
-
-export default App;
-
-
-const domContainer = document.querySelector('#app');
-ReactDOM.render(e(App), domContainer);
