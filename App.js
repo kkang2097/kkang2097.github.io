@@ -2,8 +2,10 @@
 
 const e = React.createElement;
 
-function App() {
-  return;
+class App extends React.Component() {
+  return(
+    <div>HEALKJSKL</div>
+  );
 }
 
 
