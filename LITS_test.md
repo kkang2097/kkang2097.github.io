@@ -18,6 +18,7 @@ Prompts serve as the foundation for our abstractions so we need to make them roc
 Abstractions in LlamaIndex may seem confusing, but they can be boiled down to three different types:
 - Utility (manipulates data, no LLM connection needed)
 - Prompt wrappers (Abstractions that format prompt output and give you a nice format)
+- Abstraction Engines (Handle interactions between multiple component abstractions)
 
 Type 1 examples:
 - Parser
