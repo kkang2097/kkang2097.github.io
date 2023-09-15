@@ -1,4 +1,4 @@
-After quite a bit of thought, here's what I think.
+After quite a bit of thought, here's what I think about testing existing and new abstractions in LlamaIndex.
 
 ## Definition: What is LlamaIndex?
 As a SDK, LlamaIndex is a collection of clever abstractions built over specific prompts. 
@@ -15,7 +15,17 @@ Prompts serve as the foundation for our abstractions so we need to make them roc
 - Decent Coverage across mainstream LLMs
 
 #### Do the abstractions work?
-Abstractions in LlamaIndex either directly manipulate prompt outputs or work with other nested abstractions. Let's call them Type 1 LlamaIndex abstractions and Type 2 LlamaIndex abstractions, respectively.
+Abstractions in LlamaIndex may seem confusing, but they can be boiled down to three different types:
+- Utility (manipulates data, no LLM connection needed)
+- Prompt wrappers (Abstractions that format prompt output and give you a nice format)
+
+Type 1 examples:
+- Parser
+- Node
+- Embedding
+- Response
+- 
+- L
 
 
 
