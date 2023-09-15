@@ -15,7 +15,7 @@ Prompts serve as the foundation for our abstractions so we need to make them roc
 - Decent Coverage across mainstream LLMs
 
 #### Do the abstractions work?
-
+Abstractions in LlamaIndex either directly manipulate prompt outputs or work with other nested abstractions. Let's call them Type 1 LlamaIndex abstractions and Type 2 LlamaIndex abstractions, respectively.
 
 
 
