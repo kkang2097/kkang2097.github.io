@@ -54,7 +54,7 @@ Type 3:
 These tests need to be two-sided. One side needs to test the default prompts for correctness. The other side will mock the llm.complete output and check that our data comes out in the correct format (just to check that the outputs are reasonable). **Unit Tests, Benchmark Tests**
 
 Type 4:
-Interfaces alone can't enforce correct behavior for these larger abstractions. One approach is to mock the LLM completions and the child abstractions. Then we enforce which functions get called inside an abstraction's main function call. Currently trying this out to see how much work this takes. **Unit Tests, Benchmark Tests**
+Interfaces alone can't enforce correct behavior for these larger abstractions. One approach is to mock the LLM completions and the child abstractions. Then we enforce which functions get called using unit tests. Currently trying this out to see how much work this takes. **Unit Tests**
 
 ## Types of Tests We Need To Run
 - Integration Tests
