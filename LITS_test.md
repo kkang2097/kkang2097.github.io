@@ -51,7 +51,7 @@ Type 2:
 Regular unit tests will do. **Unit Tests**
 
 Type 3:
-These tests need to be two-sided. One side needs to test the default prompts for correctness. The other side will mock the llm.complete output and check that our data comes out in the correct format (just to check that the outputs are reasonable). **Unit Tests, Benchmark Tests**
+These tests need to be two-sided. One side needs to test the default prompts for correctness. The other side will mock the llm.complete output and check that our data comes out in the correct format (just to check that the outputs are reasonable). **Benchmark Tests, Unit Tests**
 
 Type 4:
 Interfaces alone can't enforce correct behavior for these larger abstractions. One approach is to mock the LLM completions and the child abstractions. Then we enforce which functions get called using unit tests. Currently trying this out to see how much work this takes. **Unit Tests**
@@ -60,4 +60,9 @@ Interfaces alone can't enforce correct behavior for these larger abstractions. O
 - Integration Tests
 - Benchmark Tests
 - Unit Tests
-  
+
+### Immediate Action Steps
+- Write unit tests for Selector & RouterQueryEngine
+
+### Future Action Steps
+- Scale this out and make a robust standard for creating new LlamaIndex abstractions
