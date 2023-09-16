@@ -56,7 +56,7 @@ These tests need to be two-sided. One side needs to test the default prompts for
 Type 4:
 Interfaces alone can't enforce correct behavior for these larger abstractions. One approach is to mock the LLM completions and the child abstractions. Then we enforce which functions get called using unit tests. Currently trying this out to see how much work this takes. **Unit Tests**
 
-## Types of Tests We Need To Run
+## Types of Tests We Should Have
 - Integration Tests
 - Benchmark Tests
 - Unit Tests
